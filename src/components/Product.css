@@ -1,0 +1,36 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 1rem;
+  max-height: 400px;
+  min-width: 100px;
+  border-radius: 1px solid black;
+  background-color: #ffffff;
+
+  z-index: 1;
+  margin: 0.5rem;
+}
+
+.product__info {
+  width: 100%;
+}
+.product__info > :first-child {
+  font-size: 0.8rem;
+}
+
+.product > img {
+  max-height: 11rem;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.product > button {
+  background-color: #ffe093;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
