@@ -16,7 +16,7 @@ const Header = () => {
           <LocationOnIcon></LocationOnIcon>
         </span>
         <div className="header__option">
-          <span className="header__optionLineOne">Diliver to</span>
+          <span className="header__optionLineOne">Diliver to:</span>
           <span className="header__optionLineTwo">Vietnam</span>
         </div>
 
@@ -27,7 +27,7 @@ const Header = () => {
 
         <div className="header__nav">
           <div className="header__option">
-            <span className="header__optionLineOne">Hello</span>
+            <span className="header__optionLineOne">Hello:</span>
             <span className="header__optionLineTwo">Sign in</span>
           </div>
 
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
 
           <div className="header__option">
-            <span className="header__optionLineOne">Your</span>
+            <span className="header__optionLineOne">Your-</span>
             <span className="header__optionLineTwo">Prime</span>
           </div>
         </div>
