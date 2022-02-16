@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
-import styled from "styled-components";
+// import styled from "styled-components";
 import Product from "./Product";
 import { db } from "../config/FirebaseConfig";
 import { collection, getDocs } from "firebase/firestore";
@@ -80,26 +80,26 @@ const Home = () => {
   );
 };
 
-const CateContainer = styled.div`
-  max-width: 100rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  margin: 0.5rem 1rem;
-  overflow: scroll;
-  padding: 2rem;
+// const CateContainer = styled.div`
+//   max-width: 100rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #ffffff;
+//   margin: 0.5rem 1rem;
+//   overflow: scroll;
+//   padding: 2rem;
 
-  /* ::-webkit-scrollbar{
-    display: none;
-  } */
-`;
+//   /* ::-webkit-scrollbar{
+//     display: none;
+//   } */
+// `;
 
-const CateImage = styled.img`
-  max-width: 12rem;
-  max-height: 12rem;
-  object-fit: contain;
-  cursor: pointer;
-`;
+// const CateImage = styled.img`
+//   max-width: 12rem;
+//   max-height: 12rem;
+//   object-fit: contain;
+//   cursor: pointer;
+// `;
 
 export default Home;

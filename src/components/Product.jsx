@@ -3,7 +3,7 @@ import Rating from "@mui/material/Rating";
 import { AddToCartButton } from "./button/Button";
 import "./Product.css";
 const Product = ({ title, price, rating, image }) => {
-  const [value, setValue] = useState(rating);
+  const [value] = useState(rating);
 
   return (
     <>
