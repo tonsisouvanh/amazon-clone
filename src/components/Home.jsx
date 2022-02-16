@@ -21,7 +21,7 @@ const Home = () => {
     };
 
     getProducts();
-  }, []);
+  }, [productCollectionRef]);
 
   return (
     <>
